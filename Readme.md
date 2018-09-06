@@ -1,8 +1,7 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
 * Студент: [Светлана Макеева](https://up.htmlacademy.ru/javascript/15/user/862767).
-* Наставник: `Неизвестно`.
-
+* Наставник: [Дмитрий Рябинин](https://up.htmlacademy.ru/javascript/15/user/63289).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
