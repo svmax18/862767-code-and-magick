@@ -187,7 +187,7 @@ var fireballSize = 22;
   // скорость фаербола
   var getFireballSpeed = function (left) {
     // фаербол летит по ветру
-  if(left == true){
+  if(left === true){
     return 5
   }
     // фаербол летит против ветра
@@ -198,28 +198,20 @@ var fireballSize = 22;
   // ширина мага
 var wizardWidth = 70;
   // высота мага
-  var umnWizardHeight = 1.337 * wizardWidth;
-  function (wizardWidth) {
-  var umnWizardHeight = 1.337 * wizardWidth;
-  return umnWizardHeight;
-};
   var getWizardHeight = function (wizardWidth) {
   var umnWizardHeight = 1.337 * wizardWidth;
   return umnWizardHeight;
 };
-var getWizardHeight = function (wizardWidth) {
-  var umnWizardHeight = 1.337 * wizardWidth;
-  return umnWizardHeight;
-}
-var wizardHeight = getWizardHeight(wizardWidth); 
+
+  var wizardHeight = getWizardHeight(wizardWidth); 
 // положение мага по горизонтали (в центре)
 var getWizardX =  function (width){
-  var umngetWizardX = 0.5 * getWizardX;
+  var umngetWizardX = 0.5 * width;
   return umngetWizardX
 }
 // положение мага по вертикали (две трети над землей)
 var getWizardY = function (height){
-  var umngetWizardY = 2/3 * getWizardY;
+  var umngetWizardY = 2/3 * height;
   return umngetWizardY
 }
   
